@@ -12,3 +12,10 @@ Console.WriteLine();
 Console.WriteLine($"Liskov Substitution Principle Started ------ ");
 LiskovSubstitution.Main();
 Console.WriteLine($"Liskov Substitution Principle Completed ------ ");
+
+Console.WriteLine();
+
+// Interface Seggregation Principle
+Console.WriteLine($"Interface Seggregation Principle Started ------ ");
+InterfaceSeggregate.Main();
+Console.WriteLine($"Interface Seggregation Principle Completed ------ ");
