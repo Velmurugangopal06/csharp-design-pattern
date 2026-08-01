@@ -9,6 +9,12 @@ Console.WriteLine($"Factory Method Implementation Completed -------- ");
 
 Console.WriteLine();
 
+Console.WriteLine($"Factory Implementation Started -------- ");
+Factory.Main();
+Console.WriteLine($"Factory Implementation Completed -------- ");
+
+Console.WriteLine();
+
 Console.WriteLine($"Async Factory Method Implementation Started -------- ");
 await AsyncFactoryMethod.Main();
 Console.WriteLine($"Async Factory Method Implementation Completed -------- ");
