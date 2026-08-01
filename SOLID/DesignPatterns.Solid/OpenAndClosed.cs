@@ -79,7 +79,6 @@ namespace DesignPatterns.Solid
             {
                 Console.WriteLine(fruit.Name);
             }
-            Console.WriteLine();
         }
     }
 }
