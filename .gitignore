@@ -57,3 +57,5 @@ TestResult.xml
 nunit-*.xml
 /.vs
 /SOLID/DesignPatterns.Solid/.vs/DesignPatterns.Solid
+/SOLID/DesignPatterns.Solid/.vs/ProjectEvaluation
+/Behavorial/DesignPatterns.Factory/.vs/DesignPatterns.Factory
