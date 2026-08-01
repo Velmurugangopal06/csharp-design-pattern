@@ -19,3 +19,10 @@ Console.WriteLine();
 Console.WriteLine($"Interface Seggregation Principle Started ------ ");
 InterfaceSeggregate.Main();
 Console.WriteLine($"Interface Seggregation Principle Completed ------ ");
+
+Console.WriteLine();
+
+// Dependency Inversion Principle
+Console.WriteLine($"Dependency Inversion Principle Started ------ ");
+DependencyInversion.Main();
+Console.WriteLine($"Dependency Inversion Principle Completed ------ ");
