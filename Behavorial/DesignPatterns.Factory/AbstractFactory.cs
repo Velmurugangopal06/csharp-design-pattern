@@ -65,17 +65,10 @@ namespace DesignPatterns.Factory
         {
             foreach(AvailableHotDrink drink in Enum.GetValues(typeof(AvailableHotDrink)))
             {
-                switch (drink)
-                {
-                    case AvailableHotDrink.Tea:
-                        machines.Add(AvailableHotDrink.Tea, new TeaMachine());
-                        break;
-                    case AvailableHotDrink.Coffee:
-                        machines.Add(AvailableHotDrink.Coffee, new CoffeeMachine());
-                        break;
-                    default:
-                        break;
-                }
+                // We can switch to avoid complexity but i prefer this approach
+                var typeName = $"{GetType().Namespace}.{drink}Machine";
+                var machine = (IHotDrinkMachine)Activator.CreateInstance(Type.GetType(typeName));
+                machines.Add(drink, machine);
             }
         }
 
