@@ -60,3 +60,4 @@ nunit-*.xml
 /SOLID/DesignPatterns.Solid/.vs/ProjectEvaluation
 /Behavorial/DesignPatterns.Factory/.vs/DesignPatterns.Factory
 /Creational/DesignPatterns.Factory/.vs
+/Creational/DesignPatterns.Singleton/.vs/DesignPatterns.Singleton
