@@ -61,3 +61,5 @@ nunit-*.xml
 /Behavorial/DesignPatterns.Factory/.vs/DesignPatterns.Factory
 /Creational/DesignPatterns.Factory/.vs
 /Creational/DesignPatterns.Singleton/.vs/DesignPatterns.Singleton
+/Creational/DesignPatterns.Builder/.vs/DesignPatterns.Builder
+/Creational/DesignPatterns.Singleton/.vs/ProjectEvaluation
